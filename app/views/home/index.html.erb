@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+</head>
+<body>
+	<h1>Welcome to Home Page</h1>
+
+	<ul>
+		<li><%= link_to "Contacts", :controller => :contacts, :action => :index %></li>
+		<li><%= link_to "Addresses", :controller => :addresses, :action => :index %></li>
+		<li><%= link_to "Phones", :controller => :phones, :action => :index %></li>
+	</ul>
+
+</body>
+</html>
